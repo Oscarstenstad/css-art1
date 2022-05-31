@@ -1,0 +1,79 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+}
+
+.mountain{
+    background-image: linear-gradient(to left, #3a4f4a, #918868); 
+    transform: rotate(45deg);
+    width: 500px;
+    height: 500px;
+}
+
+#border{
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    background: radial-gradient(#c76d45, #8ac6d0 60%);
+    position: absolute;
+    text-align: center;
+    margin: 20%;
+    overflow: hidden;
+}
+
+#sun{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 200px;
+    border-radius: 50%;
+    background: radial-gradient(#c76d45, #fdca40 50%)
+}
+
+#m1{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: -90px;
+}
+
+#m2{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 350px;
+}
+
+#water{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    margin-top: 500px;
+    background-image: linear-gradient(to bottom, #16679a, #cbd081);
+}
+
+#sand{
+    position: absolute;
+    background-image: linear-gradient(to bottom, #cbd081, #c76d45 90%);
+    width: 800px;
+    height: 400px;
+    margin-top: 600px;
+    margin-left: 0px;
+}
+
+#towel{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    transform: rotate(30deg);
+    margin-top: 670px;
+    margin-left: 250px;
+    background-image: linear-gradient(
+        90deg,
+        #219ebc, 
+        #fb8500, 
+        #219ebc, 
+        #fb8500, 
+        #219ebc
+    );
+}
